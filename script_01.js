@@ -45,7 +45,18 @@ function ausgabeNamenParam(firstName) {
     console.log("Hallo " + firstName + "!");
 }
 
-ausgabeNamenParam("Anton"); // Argument(e) / args
-ausgabeNamenParam("Milda");
-ausgabeNamenParam();
-ausgabeNamenParam(prompt("Vorname?:"));
+// ausgabeNamenParam("Anton"); // Argument(e) / args
+// ausgabeNamenParam("Milda");
+// ausgabeNamenParam();
+// ausgabeNamenParam(prompt("Vorname?:"));
+
+/***** Funktionen 02c *****/
+// 2c. Mehrere Parameter
+
+function ausgabeNamenParams(firstName,familyName) {
+    console.log("Hallo " + firstName + " " + familyName +"!"); 
+}
+
+ausgabeNamenParams("Max","Mütze");
+ausgabeNamenParams(prompt("Vorname?"),prompt("Nachname?"));
+
