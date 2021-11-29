@@ -86,7 +86,7 @@ function getString(firstName,familyName) {
     const gap = " ";
     const outputStr = "Hi" + gap + firstName + gap + familyName +"!";
     return outputStr; // ---> Daten zum Call
-    console.log("Hi"); // return BEENDET die Funktion!
+    // console.log(outputStr); // return BEENDET die Funktion!
 }
 
 // 2. Funktionalität: data output
